@@ -7,7 +7,7 @@ SVG Icons for Cars Makes I gathered to match edmunds API
 
 |Icon|Name|Code|
 |---|---|---|
-| ![](https://cdn.rawgit.com/dangnelson/car-makes-icons/master/svgs/acura.svg) |  | `<i class"car-"></i>`|
+| ![](https://github.com/dangnelson/car-makes-icons/master/svgs/acura.svg) |  | `<i class"car-"></i>`|
 | ![](https://cdn.rawgit.com/dangnelson/car-makes-icons/master/svgs/alfa-romeo.svg) |  | `<i class"car-"></i>`|
 | ![](https://cdn.rawgit.com/dangnelson/car-makes-icons/master/svgs/alfa-romeo-alt.svg) |  | `<i class"car-"></i>`|
 | ![](https://cdn.rawgit.com/dangnelson/car-makes-icons/master/svgs/am-general.svg) |  | `<i class"car-"></i>`|
