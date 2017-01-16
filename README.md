@@ -9,7 +9,7 @@ SVG Icons for Cars Makes I gathered to match Edmunds API
 
 ##Usage
 
-|Icon|Name|Code|
+|Icon|Class Name|HTML|
 |---|---|---|
 | ![](https://rawgit.com/dangnelson/car-makes-icons/master/svgs/acura.svg) | acura | `<i class"car-acura"></i>`|
 | ![](https://rawgit.com/dangnelson/car-makes-icons/master/svgs/alfa%20romeo.svg) | alfa-romeo | `<i class"car-alfa-romeo"></i>`|
