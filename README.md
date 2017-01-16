@@ -6,3 +6,5 @@ SVG Icons for Cars Makes I gathered to match edmunds API
 ##Usage
 
 `<i class"car-audi"></i>`
+
+[Acura](https://cdn.rawgit.com/dangnelson/car-makes-icons/master/svgs/acura.svg)
