@@ -1,5 +1,5 @@
 # car-makes-icons
-SVG Icons for Cars Makes to match Edmunds API
+SVG Icons / Font for Cars Makes to match Edmunds API
 
 ##Install
 `npm install car-makes-icons --save`
