@@ -101,3 +101,6 @@ SVG Icons / Font for Cars Makes to match Edmunds API
 | ![](./svgs/volvo%20alt.svg) | volvo-alt | `<i class"car-volvo-alt"></i>`| |
 
 
+or prepend car-default in your classes to automate
+
+`<i class"car-default car-xxxxxx"></i>`
