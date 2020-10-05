@@ -28,6 +28,7 @@ SVG Icons / Font for Cars Makes to match Edmunds API
 | ![](./svgs/citroen.svg) | citroen | `<i class"car-citroen"></i>`|
 | ![](./svgs/dacia.svg) | dacia | `<i class"car-dacia"></i>`|
 | ![](./svgs/daewoo.svg) | daewoo | `<i class"car-daewoo"></i>`|
+| ![](./svgs/default.svg) | default | `<i class"car-default"></i>`|
 | ![](./svgs/dodge.svg) | dodge | `<i class"car-dodge"></i>`|
 | ![](./svgs/eagle.svg) | eagle | `<i class"car-eagle"></i>`|
 | ![](./svgs/ferrari.svg) | ferrari | `<i class"car-ferrari"></i>`|
