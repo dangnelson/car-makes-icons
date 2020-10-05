@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: '#{$icomoon-font-family}';
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?uiy0du');
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?uiy0du#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?uiy0du') format('truetype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?uiy0du') format('woff'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?uiy0du##{$icomoon-font-family}') format('svg');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?fngsii');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?fngsii#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?fngsii') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?fngsii') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?fngsii##{$icomoon-font-family}') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -27,11 +27,6 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.car-default {
-  &:before {
-    content: $car-default; 
-  }
-}
 .car-acura {
   &:before {
     content: $car-acura; 
@@ -115,6 +110,11 @@
 .car-daewoo {
   &:before {
     content: $car-daewoo; 
+  }
+}
+.car-default {
+  &:before {
+    content: $car-default; 
   }
 }
 .car-dodge {

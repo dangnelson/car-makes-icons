@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'car-makes-icons';
-  src:  url('fonts/car-makes-icons.eot?uiy0du');
-  src:  url('fonts/car-makes-icons.eot?uiy0du#iefix') format('embedded-opentype'),
-    url('fonts/car-makes-icons.ttf?uiy0du') format('truetype'),
-    url('fonts/car-makes-icons.woff?uiy0du') format('woff'),
-    url('fonts/car-makes-icons.svg?uiy0du#car-makes-icons') format('svg');
+  src:  url('fonts/car-makes-icons.eot?fngsii');
+  src:  url('fonts/car-makes-icons.eot?fngsii#iefix') format('embedded-opentype'),
+    url('fonts/car-makes-icons.ttf?fngsii') format('truetype'),
+    url('fonts/car-makes-icons.woff?fngsii') format('woff'),
+    url('fonts/car-makes-icons.svg?fngsii#car-makes-icons') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,9 +25,6 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.car-default:before {
-  content: "\e957";
-}
 .car-acura:before {
   content: "\e923";
 }
@@ -78,6 +75,9 @@
 }
 .car-daewoo:before {
   content: "\e92e";
+}
+.car-default:before {
+  content: "\e957";
 }
 .car-dodge:before {
   content: "\e90d";

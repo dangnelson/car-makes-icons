@@ -13,7 +13,6 @@
 		el.innerHTML = '<span style="font-family: \'car-makes-icons\'">' + entity + '</span>' + html;
 	}
 	var icons = {
-		'car-default': '&#xe957;',
 		'car-acura': '&#xe923;',
 		'car-alfa-romeo': '&#xe90c;',
 		'car-alfa-romeo-alt': '&#xe924;',
@@ -31,6 +30,7 @@
 		'car-citroen': '&#xe907;',
 		'car-dacia': '&#xe956;',
 		'car-daewoo': '&#xe92e;',
+		'car-default': '&#xe957;',
 		'car-dodge': '&#xe90d;',
 		'car-eagle': '&#xe92f;',
 		'car-ferrari': '&#xe930;',
