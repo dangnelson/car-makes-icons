@@ -9,8 +9,8 @@ SVG Icons / Font for Cars Makes to match Edmunds API
 
 ## Usage
 
-|Icon|Class Name|HTML|
-|---|---|---|
+|Icon|Class Name|HTML|Source|
+|---|---|---|---|
 | ![](./svgs/acura.svg) | acura | `<i class"car-acura"></i>`| |
 | ![](./svgs/alfa%20romeo.svg) | alfa-romeo | `<i class"car-alfa-romeo"></i>`|
 | ![](./svgs/alfa%20romeo%20alt.svg) | alfa-romeo-alt | `<i class"car-alfa-romeo-alt"></i>`|
