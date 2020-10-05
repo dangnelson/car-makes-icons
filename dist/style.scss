@@ -1,0 +1,465 @@
+@import "variables";
+
+@font-face {
+  font-family: '#{$icomoon-font-family}';
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?lu3b0q');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?lu3b0q#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?lu3b0q') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?lu3b0q') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?lu3b0q##{$icomoon-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="car-"], [class*=" car-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$icomoon-font-family}' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.car-acura {
+  &:before {
+    content: $car-acura; 
+  }
+}
+.car-alfa-romeo {
+  &:before {
+    content: $car-alfa-romeo; 
+  }
+}
+.car-alfa-romeo-alt {
+  &:before {
+    content: $car-alfa-romeo-alt; 
+  }
+}
+.car-am-general {
+  &:before {
+    content: $car-am-general; 
+  }
+}
+.car-aston-martin {
+  &:before {
+    content: $car-aston-martin; 
+  }
+}
+.car-aston-martin-alt {
+  &:before {
+    content: $car-aston-martin-alt; 
+  }
+}
+.car-audi {
+  &:before {
+    content: $car-audi; 
+  }
+}
+.car-bentley {
+  &:before {
+    content: $car-bentley; 
+  }
+}
+.car-bmw {
+  &:before {
+    content: $car-bmw; 
+  }
+}
+.car-bugatti {
+  &:before {
+    content: $car-bugatti; 
+  }
+}
+.car-buick {
+  &:before {
+    content: $car-buick; 
+  }
+}
+.car-cadillac {
+  &:before {
+    content: $car-cadillac; 
+  }
+}
+.car-chevrolet {
+  &:before {
+    content: $car-chevrolet; 
+  }
+}
+.car-chrysler {
+  &:before {
+    content: $car-chrysler; 
+  }
+}
+.car-citroen {
+  &:before {
+    content: $car-citroen; 
+  }
+}
+.car-dacia {
+  &:before {
+    content: $car-dacia; 
+  }
+}
+.car-daewoo {
+  &:before {
+    content: $car-daewoo; 
+  }
+}
+.car-dodge {
+  &:before {
+    content: $car-dodge; 
+  }
+}
+.car-eagle {
+  &:before {
+    content: $car-eagle; 
+  }
+}
+.car-ferrari {
+  &:before {
+    content: $car-ferrari; 
+  }
+}
+.car-fiat {
+  &:before {
+    content: $car-fiat; 
+  }
+}
+.car-fiat-alt {
+  &:before {
+    content: $car-fiat-alt; 
+  }
+}
+.car-fisker {
+  &:before {
+    content: $car-fisker; 
+  }
+}
+.car-ford {
+  &:before {
+    content: $car-ford; 
+  }
+}
+.car-genesis {
+  &:before {
+    content: $car-genesis; 
+  }
+}
+.car-geo {
+  &:before {
+    content: $car-geo; 
+  }
+}
+.car-gmc {
+  &:before {
+    content: $car-gmc; 
+  }
+}
+.car-honda {
+  &:before {
+    content: $car-honda; 
+  }
+}
+.car-hummer {
+  &:before {
+    content: $car-hummer; 
+  }
+}
+.car-hyundai {
+  &:before {
+    content: $car-hyundai; 
+  }
+}
+.car-infiniti {
+  &:before {
+    content: $car-infiniti; 
+  }
+}
+.car-isuzu {
+  &:before {
+    content: $car-isuzu; 
+  }
+}
+.car-jaguar {
+  &:before {
+    content: $car-jaguar; 
+  }
+}
+.car-jaguar-alt {
+  &:before {
+    content: $car-jaguar-alt; 
+  }
+}
+.car-jeep {
+  &:before {
+    content: $car-jeep; 
+  }
+}
+.car-jeep-alt {
+  &:before {
+    content: $car-jeep-alt; 
+  }
+}
+.car-kia {
+  &:before {
+    content: $car-kia; 
+  }
+}
+.car-lamborghini {
+  &:before {
+    content: $car-lamborghini; 
+  }
+}
+.car-lamborghini-alt {
+  &:before {
+    content: $car-lamborghini-alt; 
+  }
+}
+.car-land-rover {
+  &:before {
+    content: $car-land-rover; 
+  }
+}
+.car-lexus {
+  &:before {
+    content: $car-lexus; 
+  }
+}
+.car-lincoln {
+  &:before {
+    content: $car-lincoln; 
+  }
+}
+.car-lotus {
+  &:before {
+    content: $car-lotus; 
+  }
+}
+.car-lotus-alt {
+  &:before {
+    content: $car-lotus-alt; 
+  }
+}
+.car-maserati {
+  &:before {
+    content: $car-maserati; 
+  }
+}
+.car-maybach {
+  &:before {
+    content: $car-maybach; 
+  }
+}
+.car-mazda {
+  &:before {
+    content: $car-mazda; 
+  }
+}
+.car-mazda-alt {
+  &:before {
+    content: $car-mazda-alt; 
+  }
+}
+.car-mclaren {
+  &:before {
+    content: $car-mclaren; 
+  }
+}
+.car-mclaren-alt {
+  &:before {
+    content: $car-mclaren-alt; 
+  }
+}
+.car-mercedes-benz {
+  &:before {
+    content: $car-mercedes-benz; 
+  }
+}
+.car-mercedes-benz-alt {
+  &:before {
+    content: $car-mercedes-benz-alt; 
+  }
+}
+.car-mercury {
+  &:before {
+    content: $car-mercury; 
+  }
+}
+.car-mini {
+  &:before {
+    content: $car-mini; 
+  }
+}
+.car-mini-alt {
+  &:before {
+    content: $car-mini-alt; 
+  }
+}
+.car-mitsubishi {
+  &:before {
+    content: $car-mitsubishi; 
+  }
+}
+.car-nissan {
+  &:before {
+    content: $car-nissan; 
+  }
+}
+.car-oldsmobile {
+  &:before {
+    content: $car-oldsmobile; 
+  }
+}
+.car-opel {
+  &:before {
+    content: $car-opel; 
+  }
+}
+.car-panoz {
+  &:before {
+    content: $car-panoz; 
+  }
+}
+.car-peugeot {
+  &:before {
+    content: $car-peugeot; 
+  }
+}
+.car-peugeot-alt {
+  &:before {
+    content: $car-peugeot-alt; 
+  }
+}
+.car-plymouth {
+  &:before {
+    content: $car-plymouth; 
+  }
+}
+.car-pontiac {
+  &:before {
+    content: $car-pontiac; 
+  }
+}
+.car-porsche {
+  &:before {
+    content: $car-porsche; 
+  }
+}
+.car-ram {
+  &:before {
+    content: $car-ram; 
+  }
+}
+.car-ram-alt {
+  &:before {
+    content: $car-ram-alt; 
+  }
+}
+.car-renault {
+  &:before {
+    content: $car-renault; 
+  }
+}
+.car-renault-alt {
+  &:before {
+    content: $car-renault-alt; 
+  }
+}
+.car-rolls-royce {
+  &:before {
+    content: $car-rolls-royce; 
+  }
+}
+.car-saab {
+  &:before {
+    content: $car-saab; 
+  }
+}
+.car-saab-alt {
+  &:before {
+    content: $car-saab-alt; 
+  }
+}
+.car-saturn {
+  &:before {
+    content: $car-saturn; 
+  }
+}
+.car-scion {
+  &:before {
+    content: $car-scion; 
+  }
+}
+.car-seat {
+  &:before {
+    content: $car-seat; 
+  }
+}
+.car-skoda {
+  &:before {
+    content: $car-skoda; 
+  }
+}
+.car-smart {
+  &:before {
+    content: $car-smart; 
+  }
+}
+.car-spyker {
+  &:before {
+    content: $car-spyker; 
+  }
+}
+.car-spyker-alt {
+  &:before {
+    content: $car-spyker-alt; 
+  }
+}
+.car-subaru {
+  &:before {
+    content: $car-subaru; 
+  }
+}
+.car-subaru-alt {
+  &:before {
+    content: $car-subaru-alt; 
+  }
+}
+.car-suzuki {
+  &:before {
+    content: $car-suzuki; 
+  }
+}
+.car-tesla {
+  &:before {
+    content: $car-tesla; 
+  }
+}
+.car-toyota {
+  &:before {
+    content: $car-toyota; 
+  }
+}
+.car-volkswagen {
+  &:before {
+    content: $car-volkswagen; 
+  }
+}
+.car-volvo {
+  &:before {
+    content: $car-volvo; 
+  }
+}
+.car-volvo-alt {
+  &:before {
+    content: $car-volvo-alt; 
+  }
+}
+
