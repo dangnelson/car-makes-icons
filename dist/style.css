@@ -1,18 +1,19 @@
 @font-face {
   font-family: 'car-makes-icons';
-  src:  url('fonts/car-makes-icons.eot?qie7ia');
-  src:  url('fonts/car-makes-icons.eot?qie7ia#iefix') format('embedded-opentype'),
-    url('fonts/car-makes-icons.ttf?qie7ia') format('truetype'),
-    url('fonts/car-makes-icons.woff?qie7ia') format('woff'),
-    url('fonts/car-makes-icons.svg?qie7ia#car-makes-icons') format('svg');
+  src:  url('fonts/car-makes-icons.eot?e9d0qf');
+  src:  url('fonts/car-makes-icons.eot?e9d0qf#iefix') format('embedded-opentype'),
+    url('fonts/car-makes-icons.ttf?e9d0qf') format('truetype'),
+    url('fonts/car-makes-icons.woff?e9d0qf') format('woff'),
+    url('fonts/car-makes-icons.svg?e9d0qf#car-makes-icons') format('svg');
   font-weight: normal;
   font-style: normal;
+  font-display: block;
 }
 
 [class^="car-"], [class*=" car-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'car-makes-icons' !important;
-  speak: none;
+  speak: never;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -24,6 +25,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.car-dacia:before {
+  content: "\e956";
+}
 .car-peugeot-alt:before {
   content: "\e900";
 }
