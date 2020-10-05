@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'car-makes-icons';
-  src:  url('fonts/car-makes-icons.eot?e9d0qf');
-  src:  url('fonts/car-makes-icons.eot?e9d0qf#iefix') format('embedded-opentype'),
-    url('fonts/car-makes-icons.ttf?e9d0qf') format('truetype'),
-    url('fonts/car-makes-icons.woff?e9d0qf') format('woff'),
-    url('fonts/car-makes-icons.svg?e9d0qf#car-makes-icons') format('svg');
+  src:  url('fonts/car-makes-icons.eot?kxhsbt');
+  src:  url('fonts/car-makes-icons.eot?kxhsbt#iefix') format('embedded-opentype'),
+    url('fonts/car-makes-icons.ttf?kxhsbt') format('truetype'),
+    url('fonts/car-makes-icons.woff?kxhsbt') format('woff'),
+    url('fonts/car-makes-icons.svg?kxhsbt#car-makes-icons') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,122 +25,23 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.car-dacia:before {
-  content: "\e956";
-}
-.car-peugeot-alt:before {
-  content: "\e900";
-}
-.car-skoda:before {
-  content: "\e901";
-}
-.car-renault:before {
-  content: "\e902";
-}
-.car-seat:before {
-  content: "\e903";
-}
-.car-renault-alt:before {
-  content: "\e904";
-}
-.car-peugeot:before {
-  content: "\e905";
-}
-.car-opel:before {
-  content: "\e906";
-}
-.car-citroen:before {
-  content: "\e907";
-}
-.car-mini:before {
-  content: "\e908";
-}
-.car-fiat:before {
-  content: "\e909";
-}
-.car-mclaren:before {
-  content: "\e90a";
-}
-.car-mclaren-alt:before {
-  content: "\e90b";
+.car-acura:before {
+  content: "\e923";
 }
 .car-alfa-romeo:before {
   content: "\e90c";
-}
-.car-dodge:before {
-  content: "\e90d";
-}
-.car-ram:before {
-  content: "\e90e";
-}
-.car-subaru:before {
-  content: "\e90f";
-}
-.car-subaru-alt:before {
-  content: "\e910";
-}
-.car-ram-alt:before {
-  content: "\e911";
-}
-.car-volvo:before {
-  content: "\e912";
-}
-.car-spyker:before {
-  content: "\e913";
-}
-.car-spyker-alt:before {
-  content: "\e914";
-}
-.car-mazda:before {
-  content: "\e915";
-}
-.car-lotus:before {
-  content: "\e916";
-}
-.car-lotus-alt:before {
-  content: "\e917";
-}
-.car-lamborghini:before {
-  content: "\e918";
-}
-.car-lamborghini-alt:before {
-  content: "\e919";
-}
-.car-jeep-alt:before {
-  content: "\e91a";
-}
-.car-jeep:before {
-  content: "\e91b";
-}
-.car-jaguar:before {
-  content: "\e91c";
-}
-.car-jaguar-alt:before {
-  content: "\e91d";
-}
-.car-aston-martin:before {
-  content: "\e91e";
-}
-.car-aston-martin-alt:before {
-  content: "\e91f";
-}
-.car-mercedes-benz:before {
-  content: "\e920";
-}
-.car-saab:before {
-  content: "\e921";
-}
-.car-saab-alt:before {
-  content: "\e922";
-}
-.car-acura:before {
-  content: "\e923";
 }
 .car-alfa-romeo-alt:before {
   content: "\e924";
 }
 .car-am-general:before {
   content: "\e925";
+}
+.car-aston-martin:before {
+  content: "\e91e";
+}
+.car-aston-martin-alt:before {
+  content: "\e91f";
 }
 .car-audi:before {
   content: "\e926";
@@ -166,14 +67,26 @@
 .car-chrysler:before {
   content: "\e92d";
 }
+.car-citroen:before {
+  content: "\e907";
+}
+.car-dacia:before {
+  content: "\e956";
+}
 .car-daewoo:before {
   content: "\e92e";
+}
+.car-dodge:before {
+  content: "\e90d";
 }
 .car-eagle:before {
   content: "\e92f";
 }
 .car-ferrari:before {
   content: "\e930";
+}
+.car-fiat:before {
+  content: "\e909";
 }
 .car-fiat-alt:before {
   content: "\e931";
@@ -208,8 +121,26 @@
 .car-isuzu:before {
   content: "\e93b";
 }
+.car-jaguar:before {
+  content: "\e91c";
+}
+.car-jaguar-alt:before {
+  content: "\e91d";
+}
+.car-jeep:before {
+  content: "\e91b";
+}
+.car-jeep-alt:before {
+  content: "\e91a";
+}
 .car-kia:before {
   content: "\e93c";
+}
+.car-lamborghini:before {
+  content: "\e918";
+}
+.car-lamborghini-alt:before {
+  content: "\e919";
 }
 .car-land-rover:before {
   content: "\e93d";
@@ -220,20 +151,41 @@
 .car-lincoln:before {
   content: "\e93f";
 }
+.car-lotus:before {
+  content: "\e916";
+}
+.car-lotus-alt:before {
+  content: "\e917";
+}
 .car-maserati:before {
   content: "\e940";
 }
 .car-maybach:before {
   content: "\e941";
 }
+.car-mazda:before {
+  content: "\e915";
+}
 .car-mazda-alt:before {
   content: "\e942";
+}
+.car-mclaren:before {
+  content: "\e90a";
+}
+.car-mclaren-alt:before {
+  content: "\e90b";
+}
+.car-mercedes-benz:before {
+  content: "\e920";
 }
 .car-mercedes-benz-alt:before {
   content: "\e943";
 }
 .car-mercury:before {
   content: "\e944";
+}
+.car-mini:before {
+  content: "\e908";
 }
 .car-mini-alt:before {
   content: "\e945";
@@ -247,8 +199,17 @@
 .car-oldsmobile:before {
   content: "\e948";
 }
+.car-opel:before {
+  content: "\e906";
+}
 .car-panoz:before {
   content: "\e949";
+}
+.car-peugeot:before {
+  content: "\e905";
+}
+.car-peugeot-alt:before {
+  content: "\e900";
 }
 .car-plymouth:before {
   content: "\e94a";
@@ -259,8 +220,26 @@
 .car-porsche:before {
   content: "\e94c";
 }
+.car-ram:before {
+  content: "\e90e";
+}
+.car-ram-alt:before {
+  content: "\e911";
+}
+.car-renault:before {
+  content: "\e902";
+}
+.car-renault-alt:before {
+  content: "\e904";
+}
 .car-rolls-royce:before {
   content: "\e94d";
+}
+.car-saab:before {
+  content: "\e921";
+}
+.car-saab-alt:before {
+  content: "\e922";
 }
 .car-saturn:before {
   content: "\e94e";
@@ -268,8 +247,26 @@
 .car-scion:before {
   content: "\e94f";
 }
+.car-seat:before {
+  content: "\e903";
+}
+.car-skoda:before {
+  content: "\e901";
+}
 .car-smart:before {
   content: "\e950";
+}
+.car-spyker:before {
+  content: "\e913";
+}
+.car-spyker-alt:before {
+  content: "\e914";
+}
+.car-subaru:before {
+  content: "\e90f";
+}
+.car-subaru-alt:before {
+  content: "\e910";
 }
 .car-suzuki:before {
   content: "\e951";
@@ -282,6 +279,9 @@
 }
 .car-volkswagen:before {
   content: "\e954";
+}
+.car-volvo:before {
+  content: "\e912";
 }
 .car-volvo-alt:before {
   content: "\e955";
